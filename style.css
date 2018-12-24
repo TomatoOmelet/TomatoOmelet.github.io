@@ -6,8 +6,16 @@ div{
     margin-left: 15%;
 }
 
+div#information
+{
+    padding-left: 19%;
+    margin:-50px -50px 0 -5%;
+    background-color : rgba(10, 0, 148, 0.75);
+    color: white;
+}
+
 div.project{
-    border:solid rgb(235, 40, 40);
+    border:solid rgb(0, 119, 36);
     border-width:4px 8px;
     background-size: 100px auto;
     margin-left: 13%;
@@ -49,7 +57,7 @@ a:active
     float:left;
     width:1115px; 
     height:200px;
-    top: 120px;
+    top: 140px;
     left:13.2%;
     z-index: -1;
 }
@@ -81,12 +89,15 @@ div.project:nth-child(odd)
 
 div.project:nth-child(even)
 {
-    background-color: rgba(252, 246, 164, 0.6);
+    background-color: rgba(250, 156, 140, 0.6);
 }
 
 /*contact*/
-a.contact
-{
+table.contact{
+    width:500px;
+}
+
+a.contact{
     color: black;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;

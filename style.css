@@ -24,6 +24,8 @@ pre{
 }
 
 /*link*/
+a{font-weight: bold}
+
 a:link {
     color: blue;
     text-decoration: none;

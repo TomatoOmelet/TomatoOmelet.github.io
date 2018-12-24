@@ -83,3 +83,11 @@ div.project:nth-child(even)
 {
     background-color: rgba(252, 246, 164, 0.6);
 }
+
+/*contact*/
+a.contact
+{
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}

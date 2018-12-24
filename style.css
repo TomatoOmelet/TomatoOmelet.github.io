@@ -113,9 +113,9 @@ a.contact{
 #ChristmasTree
 {
     float: right;
-    width: 150px;
-    height: 150px;
-    padding-left: 1100px;
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
     margin-top: -220px;
     position: absolute;
     z-index: 0;

@@ -3,9 +3,9 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 //snow info
 var snowList;
-var snowNumber = 20;
+var snowNumber = 25;
 var minRadius = 5;
-var maxRadius = 20;
+var maxRadius = 10;
 var color = "rgba(255, 255, 255,0.9)";
 
 InitializeSnow();

@@ -40,7 +40,11 @@ pre{
 }
 
 /*link*/
-a{font-weight: bold}
+a{
+    font-weight: bold;
+    position: relative;
+    z-index: 100;
+}
 
 a:link {
     color: blue;
@@ -143,7 +147,6 @@ a.contact{
     padding: 0%;
     margin: 0%;
     border: 0px;
-    display: none;
     /*put canvas at foreground*/
     position: fixed;
     top:0;

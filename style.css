@@ -60,10 +60,14 @@ a:hover, a:active
 /*Navigation Bar*/
 ul.navigation
 {
+    /*sticky*/
+    position: sticky;
+    position: -webkit-sticky;
+
     width: 1115px;
     background-color: black;
     list-style-type: none;
-    margin: 0% 0% 10px 13%;
+    margin: 2px 0% 0% 13%;
     padding: 0%;
     overflow: hidden;
     border: solid white 1px;

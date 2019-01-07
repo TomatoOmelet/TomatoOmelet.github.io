@@ -6,7 +6,7 @@ html, body {
 }
 body{
     overflow-x: hidden;
-    background-color: rgb(62, 167, 199);
+    background-color: rgb(116, 124, 156);
 }
 
 div{
@@ -17,12 +17,11 @@ div#information
 {
     padding-left: 19%;
     margin:-50px -50px 0 -5%;
-    background-color : rgba(10, 0, 148, 0.75);
     color: white;
 }
 
 div.project{
-    border:solid rgb(0, 119, 36);
+    border:solid black;
     border-width:4px 8px;
     background-size: 100px auto;
     margin-left: 13%;
@@ -61,9 +60,6 @@ a:hover, a:active
 ul.navigation
 {
     /*sticky*/
-    position: sticky;
-    position: -webkit-sticky;
-
     width: 1115px;
     background-color: black;
     list-style-type: none;
@@ -140,18 +136,25 @@ img.project_screenshot_right{
     float:right;
 }
 
+/*
 div.project:nth-child(odd)
 {
-    background-color: rgba(127, 255, 212, 0.6);
+    background-color: gray;
 }
 
 div.project:nth-child(even)
 {
-    background-color: rgba(250, 156, 140, 0.6);
+    background-color: gray;
+}*/
+
+div.project
+{
+    background-color: rgb(180, 214, 214);
 }
 
 /*contact*/
 table.contact{
+    color: white;
     margin-top: 20px;
     width:500px;
 }
@@ -162,9 +165,11 @@ td.contact{
 }
 
 a.contact{
-    color: black;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
+}
+a.contact:visited{
+    color:white;
 }
 /*bottom picture*/
 #ChristmasTree

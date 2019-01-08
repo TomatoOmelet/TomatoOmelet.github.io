@@ -10,6 +10,7 @@ html, body {
 }
 body{
     overflow-y: scroll;
+    overflow-x: hidden;
     background-color: rgb(116, 124, 156);
 }
 

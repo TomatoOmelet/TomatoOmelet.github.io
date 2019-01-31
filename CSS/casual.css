@@ -7,15 +7,16 @@
     width:1115px; 
     height:200px;
     top: 125px;
-    left:13.2%;
+    left:10.2%;
     z-index: -1;
 }
 #profile_img{
+    overflow-y: scroll;
     float:left; 
     width:150px; 
     height:150px;
     padding-top:20px;
-    padding-left: 20px;
+    padding-left: 40px;
     z-index: 1;
 }
 
@@ -56,5 +57,4 @@
     /*Canvas as large as the page*/
     width: 2000px;
     height: 1000px;
-
 }

@@ -1,7 +1,3 @@
-html{
-    overflow-y: hidden;
-}
-
 html, body {
     width: 100%;
     height: 100%;
@@ -11,7 +7,7 @@ html, body {
 body{
     overflow-y: scroll;
     overflow-x: hidden;
-    background-color: rgb(116, 124, 156);
+    background-color: rgb(62, 167, 199);
 }
 
 div{
@@ -22,11 +18,12 @@ div#information
 {
     padding-left: 19%;
     margin:-50px -50px 0 -8%;
+    background-color: rgba(10, 0, 148, 0.75);
     color: white;
 }
 
 div.project{
-    border:solid black;
+    border:solid rgb(255, 87, 81);
     border-width:4px 8px;
     background-size: 100px auto;
     margin-left: 10%;
@@ -64,16 +61,17 @@ a:hover, a:active
 /*Navigation Bar*/
 ul.navigation
 {
+    z-index: 100;
     /*sticky*/
-    position: sticky;
+    /*position: sticky;*/
     top:0;
     width: 1115px;
-    background-color: black;
+    background-color: rgb(0, 92, 179);
     list-style-type: none;
     margin: 2px 0% 0% 10%;
     padding: 0%;
     overflow: hidden;
-    border: solid white 1px;
+    border: solid black 2px;
 }
 
 ul.navigation li
@@ -86,7 +84,7 @@ ul.navigation li
     margin: 0px;
     width: 120px;
     height: 100%;
-    border: solid white 0px;
+    border: solid black 0px;
     border-right-width: 1px;
     display: block;
     color: white;
@@ -111,25 +109,24 @@ ul.navigation li a:hover, a:active
 
 li.currentPage
 {
-    background-color: rgb(0, 107, 107)
+    background-color: rgb(52, 181, 255)
 }
 
 /*project*/
-/*
 div.project:nth-child(odd)
 {
-    background-color: gray;
+    background-color: rgba(127, 255, 212, 0.6);
 }
 
 div.project:nth-child(even)
 {
-    background-color: gray;
-}*/
-
+    background-color: rgba(250, 156, 140, 0.6);
+}
+/*
 div.project
 {
     background-color: rgb(180, 214, 214);
-}
+}*/
 
 img.project_screenshot_left{
     padding-top:10px;
@@ -145,7 +142,7 @@ img.project_screenshot_right{
 
 /*contact*/
 table.contact{
-    color: white;
+    color: black;
     margin-top: 20px;
     width:500px;
 }
@@ -160,5 +157,5 @@ a.contact{
     font-family: Arial, Helvetica, sans-serif;
 }
 a.contact:visited{
-    color:white;
+    color:black;
 }
